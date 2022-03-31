@@ -58,10 +58,10 @@ font-family: "Helvetica Neue", "Arial", sans-serif;
 
 p{
   display: flex;
-  margin-left: 200px;
-  margin-right: 200px;
-  margin-top: 30px;
-  margin-bottom: 30px;
+  margin-left: 20vw;
+  margin-right: 20vw;
+  margin-top: 10vw;
+  margin-bottom: 10vw;
   font-family: "Helvetica Neue", "Arial", sans-serif;
   font-style: italic;
   font-weight: 100;
@@ -190,6 +190,19 @@ a li: hover{
   font-size: 1rem;
 }
 
-@media only screen and (min-width: 480px) {
-
+@media only screen and (max-width: 480px) {
+  p{
+    display: flex;
+    margin-left: 20vw;
+    margin-right: 20vw;
+    margin-top: 10vw;
+    margin-bottom: 10vw;
+    font-family: "Helvetica Neue", "Arial", sans-serif;
+    font-style: italic;
+    font-weight: 100;
+    font-size: 1rem;
+    align-items: center;
+    color: white;
+    background-color: rgba(0,0,0,.5);
+  }
 }
